@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49966/",
+      "applicationUrl": "http://localhost:49940/",
       "sslPort": 0
     }
   },
@@ -12,15 +12,13 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Hosting:Environment": "Development"
       }
     },
-    "OdetoFood": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+    "web": {
+      "commandName": "web",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Hosting:Environment": "Development"
       }
     }
   }
